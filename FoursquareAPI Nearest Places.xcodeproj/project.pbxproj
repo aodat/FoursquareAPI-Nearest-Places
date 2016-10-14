@@ -12,6 +12,7 @@
 		8BC2AD401DB190A8008647D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC2AD3E1DB190A8008647D2 /* Main.storyboard */; };
 		8BC2AD421DB190A8008647D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC2AD411DB190A8008647D2 /* Assets.xcassets */; };
 		8BC2AD451DB190A8008647D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC2AD431DB190A8008647D2 /* LaunchScreen.storyboard */; };
+		8BC2AD4E1DB19602008647D2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC2AD4D1DB19602008647D2 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8BC2AD411DB190A8008647D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BC2AD441DB190A8008647D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BC2AD461DB190A8008647D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC2AD4D1DB19602008647D2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC2AD4E1DB19602008647D2 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				8BC2AD391DB190A8008647D2 /* FoursquareAPI Nearest Places */,
 				8BC2AD381DB190A8008647D2 /* Products */,
+				8BC2AD4C1DB19602008647D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				8BC2AD461DB190A8008647D2 /* Info.plist */,
 			);
 			path = "FoursquareAPI Nearest Places";
+			sourceTree = "<group>";
+		};
+		8BC2AD4C1DB19602008647D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BC2AD4D1DB19602008647D2 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
