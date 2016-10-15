@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B42362C1DB22350002BFB7C /* Restaurent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B42362B1DB22350002BFB7C /* Restaurent.swift */; };
 		8BC2AD3B1DB190A8008647D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC2AD3A1DB190A8008647D2 /* AppDelegate.swift */; };
 		8BC2AD3D1DB190A8008647D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC2AD3C1DB190A8008647D2 /* ViewController.swift */; };
 		8BC2AD401DB190A8008647D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC2AD3E1DB190A8008647D2 /* Main.storyboard */; };
 		8BC2AD421DB190A8008647D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC2AD411DB190A8008647D2 /* Assets.xcassets */; };
 		8BC2AD451DB190A8008647D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC2AD431DB190A8008647D2 /* LaunchScreen.storyboard */; };
 		8BC2AD4E1DB19602008647D2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC2AD4D1DB19602008647D2 /* MapKit.framework */; };
+		FA920F4217E28F7F643C7625 /* Pods_FoursquareAPI_Nearest_Places.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B02643869F92085058F9A04 /* Pods_FoursquareAPI_Nearest_Places.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B02643869F92085058F9A04 /* Pods_FoursquareAPI_Nearest_Places.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoursquareAPI_Nearest_Places.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B42362B1DB22350002BFB7C /* Restaurent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurent.swift; sourceTree = "<group>"; };
 		8BC2AD371DB190A8008647D2 /* FoursquareAPI Nearest Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FoursquareAPI Nearest Places.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC2AD3A1DB190A8008647D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BC2AD3C1DB190A8008647D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		8BC2AD441DB190A8008647D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BC2AD461DB190A8008647D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BC2AD4D1DB19602008647D2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AE774B8B5AEF5FAEBF33B13E /* Pods-FoursquareAPI Nearest Places.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoursquareAPI Nearest Places.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoursquareAPI Nearest Places/Pods-FoursquareAPI Nearest Places.release.xcconfig"; sourceTree = "<group>"; };
+		BF598E2904567739D3403857 /* Pods-FoursquareAPI Nearest Places.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoursquareAPI Nearest Places.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoursquareAPI Nearest Places/Pods-FoursquareAPI Nearest Places.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +38,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BC2AD4E1DB19602008647D2 /* MapKit.framework in Frameworks */,
+				FA920F4217E28F7F643C7625 /* Pods_FoursquareAPI_Nearest_Places.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +51,7 @@
 				8BC2AD391DB190A8008647D2 /* FoursquareAPI Nearest Places */,
 				8BC2AD381DB190A8008647D2 /* Products */,
 				8BC2AD4C1DB19602008647D2 /* Frameworks */,
+				CC2AFF6779C68CD2278056DF /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +68,7 @@
 			children = (
 				8BC2AD3A1DB190A8008647D2 /* AppDelegate.swift */,
 				8BC2AD3C1DB190A8008647D2 /* ViewController.swift */,
+				8B42362B1DB22350002BFB7C /* Restaurent.swift */,
 				8BC2AD3E1DB190A8008647D2 /* Main.storyboard */,
 				8BC2AD411DB190A8008647D2 /* Assets.xcassets */,
 				8BC2AD431DB190A8008647D2 /* LaunchScreen.storyboard */,
@@ -72,8 +81,18 @@
 			isa = PBXGroup;
 			children = (
 				8BC2AD4D1DB19602008647D2 /* MapKit.framework */,
+				4B02643869F92085058F9A04 /* Pods_FoursquareAPI_Nearest_Places.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC2AFF6779C68CD2278056DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF598E2904567739D3403857 /* Pods-FoursquareAPI Nearest Places.debug.xcconfig */,
+				AE774B8B5AEF5FAEBF33B13E /* Pods-FoursquareAPI Nearest Places.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +102,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BC2AD491DB190A8008647D2 /* Build configuration list for PBXNativeTarget "FoursquareAPI Nearest Places" */;
 			buildPhases = (
+				537FE970FA4ED3D6D7FF83AF /* [CP] Check Pods Manifest.lock */,
 				8BC2AD331DB190A8008647D2 /* Sources */,
 				8BC2AD341DB190A8008647D2 /* Frameworks */,
 				8BC2AD351DB190A8008647D2 /* Resources */,
+				82265E08EC7C68139FBB5080 /* [CP] Embed Pods Frameworks */,
+				DDFD821BB31D1BB1925911C9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -108,6 +130,7 @@
 				TargetAttributes = {
 					8BC2AD361DB190A8008647D2 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -143,11 +166,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		537FE970FA4ED3D6D7FF83AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		82265E08EC7C68139FBB5080 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoursquareAPI Nearest Places/Pods-FoursquareAPI Nearest Places-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDFD821BB31D1BB1925911C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoursquareAPI Nearest Places/Pods-FoursquareAPI Nearest Places-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8BC2AD331DB190A8008647D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B42362C1DB22350002BFB7C /* Restaurent.swift in Sources */,
 				8BC2AD3D1DB190A8008647D2 /* ViewController.swift in Sources */,
 				8BC2AD3B1DB190A8008647D2 /* AppDelegate.swift in Sources */,
 			);
@@ -268,25 +340,27 @@
 		};
 		8BC2AD4A1DB190A8008647D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF598E2904567739D3403857 /* Pods-FoursquareAPI Nearest Places.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "FoursquareAPI Nearest Places/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Odat.FoursquareAPI-Nearest-Places";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		8BC2AD4B1DB190A8008647D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE774B8B5AEF5FAEBF33B13E /* Pods-FoursquareAPI Nearest Places.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "FoursquareAPI Nearest Places/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Odat.FoursquareAPI-Nearest-Places";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -309,6 +383,7 @@
 				8BC2AD4B1DB190A8008647D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
