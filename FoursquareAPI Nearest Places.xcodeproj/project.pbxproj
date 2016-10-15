@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8B42362C1DB22350002BFB7C /* Restaurent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B42362B1DB22350002BFB7C /* Restaurent.swift */; };
+		8B42362E1DB26AA8002BFB7C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B42362D1DB26AA8002BFB7C /* API.swift */; };
 		8BC2AD3B1DB190A8008647D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC2AD3A1DB190A8008647D2 /* AppDelegate.swift */; };
 		8BC2AD3D1DB190A8008647D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC2AD3C1DB190A8008647D2 /* ViewController.swift */; };
 		8BC2AD401DB190A8008647D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC2AD3E1DB190A8008647D2 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		4B02643869F92085058F9A04 /* Pods_FoursquareAPI_Nearest_Places.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoursquareAPI_Nearest_Places.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B42362B1DB22350002BFB7C /* Restaurent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurent.swift; sourceTree = "<group>"; };
+		8B42362D1DB26AA8002BFB7C /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		8BC2AD371DB190A8008647D2 /* FoursquareAPI Nearest Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FoursquareAPI Nearest Places.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC2AD3A1DB190A8008647D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BC2AD3C1DB190A8008647D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +47,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B42362F1DB2813B002BFB7C /* API Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8B42362D1DB26AA8002BFB7C /* API.swift */,
+			);
+			name = "API Manager";
+			sourceTree = "<group>";
+		};
+		8B4236301DB2814E002BFB7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B42362B1DB22350002BFB7C /* Restaurent.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8B4236311DB28153002BFB7C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BC2AD3C1DB190A8008647D2 /* ViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		8BC2AD2E1DB190A8008647D2 = {
 			isa = PBXGroup;
 			children = (
@@ -67,8 +93,9 @@
 			isa = PBXGroup;
 			children = (
 				8BC2AD3A1DB190A8008647D2 /* AppDelegate.swift */,
-				8BC2AD3C1DB190A8008647D2 /* ViewController.swift */,
-				8B42362B1DB22350002BFB7C /* Restaurent.swift */,
+				8B4236301DB2814E002BFB7C /* Model */,
+				8B4236311DB28153002BFB7C /* View */,
+				8B42362F1DB2813B002BFB7C /* API Manager */,
 				8BC2AD3E1DB190A8008647D2 /* Main.storyboard */,
 				8BC2AD411DB190A8008647D2 /* Assets.xcassets */,
 				8BC2AD431DB190A8008647D2 /* LaunchScreen.storyboard */,
@@ -221,6 +248,7 @@
 			files = (
 				8B42362C1DB22350002BFB7C /* Restaurent.swift in Sources */,
 				8BC2AD3D1DB190A8008647D2 /* ViewController.swift in Sources */,
+				8B42362E1DB26AA8002BFB7C /* API.swift in Sources */,
 				8BC2AD3B1DB190A8008647D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
