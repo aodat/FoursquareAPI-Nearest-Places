@@ -2,4 +2,70 @@
 <Bucket
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FoursquareAPI Nearest Places/ViewController.swift"
+            timestampString = "498229025.803403"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "searchBarSearchButtonClicked(searchBar:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FoursquareAPI Nearest Places/ViewController.swift"
+            timestampString = "498229064.546613"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "getData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoursquareAPI_Nearest_Places.ViewController.getData () -&gt; ()"
+                  moduleName = "FoursquareAPI Nearest Places"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/souq/Desktop/FoursquareAPI%20Nearest%20Places/FoursquareAPI%20Nearest%20Places/ViewController.swift"
+                  timestampString = "498229064.553521"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "810">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoursquareAPI_Nearest_Places.ViewController.(getData () -&gt; ()).(closure #1)"
+                  moduleName = "FoursquareAPI Nearest Places"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/souq/Desktop/FoursquareAPI%20Nearest%20Places/FoursquareAPI%20Nearest%20Places/ViewController.swift"
+                  timestampString = "498229064.555921"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "165">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
