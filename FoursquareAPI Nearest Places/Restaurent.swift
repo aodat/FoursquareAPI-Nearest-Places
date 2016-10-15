@@ -11,12 +11,12 @@ import SwiftyJSON
 
 class Restaurent:NSObject{
     var name: String?
-    var latitude: String?
-    var longitude: String?
+    var latitude: Double?
+    var longitude: Double?
     
     init(json:JSON) {
         self.name = json["name"].string
-        self.latitude = json["lat"].string
-        self.longitude = json["long"].string
+        self.latitude = json["location"]["lat"].double
+        self.longitude = json["location"]["lng"].double
     }
 }

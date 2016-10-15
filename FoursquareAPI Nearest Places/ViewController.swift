@@ -16,7 +16,7 @@ class ViewController: UIViewController,MKMapViewDelegate, CLLocationManagerDeleg
 
     var locationManager:CLLocationManager?
     
-    let distanceCovered:Double = 500
+    let distanceCovered:Double = 1000
     var restaurantsList = [Restaurent]()
     
     // Server request variable
@@ -24,7 +24,7 @@ class ViewController: UIViewController,MKMapViewDelegate, CLLocationManagerDeleg
     let clientSecret    = "SNMRVYAOMS421JEMERMRIKBKRC0MMZWGF1CDF3AN1JCDPGIV"
     var lattidue        = ""
     var longitude       = ""
-    let searchQuery     = "restaurent"
+    let searchQuery     = "cafe"
     
     @IBOutlet weak var mapView: MKMapView!
     @IBOutlet weak var tableView: UITableView!
@@ -73,6 +73,15 @@ class ViewController: UIViewController,MKMapViewDelegate, CLLocationManagerDeleg
         }
     }
     
+    func addPin(name: String, lat: Double, lng:Double){
+        let annotation = MKPointAnnotation()
+            annotation.coordinate.latitude = lat
+            annotation.coordinate.longitude = lng
+            annotation.title = name
+            mapView.addAnnotation(annotation)
+    }
+    
+    
     // Alamofire request to get data from server and parse it via Swifty Json
     func getData(){
         
@@ -87,6 +96,7 @@ class ViewController: UIViewController,MKMapViewDelegate, CLLocationManagerDeleg
                     for restDictinary in restaurentArray {
                         let restaurent = Restaurent(json: restDictinary)
                         self.restaurantsList.append(restaurent)
+                        self.addPin(restaurent.name!,lat: restaurent.latitude!, lng: restaurent.longitude!)
                     }
                     self.tableView.reloadData()
                 }
