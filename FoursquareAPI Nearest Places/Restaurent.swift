@@ -18,5 +18,6 @@ class Restaurent:NSObject{
         self.name = json["name"].string
         self.latitude = json["location"]["lat"].double
         self.longitude = json["location"]["lng"].double
+        
     }
 }

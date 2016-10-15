@@ -29,6 +29,7 @@ class API: UIViewController {
                           "," + longitude
     }
 
+    
     // Get Data method to collect data from server using Alamofire + SwiftyJSON
     class func getData(completion:( success: Bool, response: [Restaurent]) -> ()) {
         var restaurantsList = [Restaurent]()

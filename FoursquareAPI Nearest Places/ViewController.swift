@@ -35,6 +35,7 @@ class ViewController: UIViewController,MKMapViewDelegate, CLLocationManagerDeleg
         return cell
     }
     
+    
     // Get current location for user
     override func viewDidAppear(animated: Bool)
     {
